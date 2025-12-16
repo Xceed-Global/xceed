@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small global adjustments */
+:root {
+  --header-height: 72px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Keep header height fixed to avoid visual jump between pages */
+header { height: var(--header-height); }
+
+/* Smooth link focus */
+a:focus { outline: 3px solid rgba(14,165,164,0.18); outline-offset: 3px; }
+
+/* Dark background layer */
+.dark body {
+  background-color: #0b1220;
+}
+
+/* Small helper for max-width content */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+
+
+
+
+
