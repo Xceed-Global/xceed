@@ -137,7 +137,7 @@ export default function Hero({
 
               <div className="mt-4 flex items-center gap-3">
                 <a
-                  href="https://xceed.live/"
+                  href="https://xceed-global.github.io/xceed-analytics/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 rounded-md bg-teal-600 text-white"
@@ -146,7 +146,7 @@ export default function Hero({
                 </a>
 
                 <a
-                  href="https://xceed.live/#/departments"
+                  href="https://xceed-global.github.io/xceed-analytics/#/departments"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 rounded-md border border-slate-300 dark:border-slate-600"

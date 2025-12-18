@@ -73,7 +73,7 @@ export default function Contact() {
             </div>
 
             <div className="mt-6 text-xs text-slate-500 dark:text-slate-400">
-              Prefer a demo? Open the live dashboard: <a href="https://xceed.live/" target="_blank" rel="noopener noreferrer" className="underline">Live demo</a>.
+              Prefer a demo? Open the live dashboard: <a href="https://xceed-global.github.io/xceed-analytics/" target="_blank" rel="noopener noreferrer" className="underline">Live demo</a>.
             </div>
           </aside>
         </div>
