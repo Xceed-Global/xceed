@@ -42,10 +42,10 @@ export default function Hero({
             <div className="w-full h-auto py-6 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-slate-800 dark:to-slate-800 rounded-xl flex flex-col items-center justify-center text-slate-700 dark:text-slate-200">
 
               <img
-      src={profilePic}
-      alt="Sachith Bandara"
-      className="w-28 h-28 rounded-full object-cover shadow-lg border-2 border-white dark:border-slate-700"
-    />
+                src={profilePic}
+                alt="Sachith Bandara"
+                className="w-28 h-28 rounded-full object-cover shadow-lg border-2 border-white dark:border-slate-700"
+              />
 
               {/* Name */}
               <div className="text-xl font-bold mt-3">
@@ -58,7 +58,17 @@ export default function Hero({
               </div>
 
               {/* Divider */}
-              <div className="w-20 h-[1px] bg-slate-400 dark:bg-slate-500 my-4"></div>
+              <a
+                href="https://www.sachiththennakoon.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 w-fit px-4 py-1.5 rounded-full
+                   text-emerald-700 text-sm  border-emerald-200
+                   transition-all"
+              >
+                🌐 www.sachiththennakoon.com
+
+              </a>
 
               {/* Description */}
               <div className="text-center px-6 text-sm">
